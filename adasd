@@ -1,0 +1,27 @@
+warning: in the working copy of 'app/src/main/res/layout/activity_main.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/values/strings.xml', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/app/src/main/res/layout/activity_main.xml b/app/src/main/res/layout/activity_main.xml[m
+[1mindex cee78a6..7f387e7 100644[m
+[1m--- a/app/src/main/res/layout/activity_main.xml[m
+[1m+++ b/app/src/main/res/layout/activity_main.xml[m
+[36m@@ -54,7 +54,8 @@[m
+                 android:layout_marginTop="20dp">[m
+                 <androidx.appcompat.widget.AppCompatEditText[m
+                     android:layout_width="match_parent"[m
+[31m-                    android:layout_height="wrap_content">[m
+[32m+[m[32m                    android:layout_height="wrap_content"[m
+[32m+[m[32m                    android:hint="@string/hintText">[m
+ [m
+                 </androidx.appcompat.widget.AppCompatEditText>[m
+             </com.google.android.material.textfield.TextInputLayout>[m
+[1mdiff --git a/app/src/main/res/values/strings.xml b/app/src/main/res/values/strings.xml[m
+[1mindex fa97178..225e7af 100644[m
+[1m--- a/app/src/main/res/values/strings.xml[m
+[1m+++ b/app/src/main/res/values/strings.xml[m
+[36m@@ -3,4 +3,5 @@[m
+     <string name="countryQuizApp">Country Quiz App</string>[m
+     <string name="welcome">Welcome</string>[m
+     <string name="enterYourName">Please Enter Your Name</string>[m
+[32m+[m[32m    <string name="hintText">e.g. Tahmid Shahriar</string>[m
+ </resources>[m
+\ No newline at end of file[m
